@@ -1,0 +1,135 @@
+html
+{
+background: #ffffcc; /*ffffe4*/
+}
+body
+{
+position: static;
+text-align: left;
+width: 850px;
+margin: 0 auto;
+padding: 100px;
+border-style: solid;
+border-width: 0px;
+border-color: black;
+/* font-family: "Georgia"; */
+/*font-family: "Raleway";*/
+}
+.container
+{
+margin: 50px;
+}
+.liens
+{
+margin: 50px;
+}
+.my_container
+{
+margin: 50px;
+}
+.info
+{
+color: #2B292E;
+}
+img.picture
+{
+padding: 0px;
+border: 1px solid rgba(0, 0, 255, 0.137);
+float: left;
+vertical-align: top;
+}
+h1, h2, h3, h4, h5, h6, p, ol, ul, pre, blockquote
+{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6
+{
+ color: #796b8f;
+}
+h1
+{
+/* font-weight: bold; */
+font-size: 1.3em;
+}
+h2
+{
+font-size: 1.2em;
+}
+h3
+{
+font-size: 1em;
+}
+.liens
+{
+margin:50 px;
+}
+a
+{
+text-decoration: none;
+color: ##0a41a0;
+}
+a.papers
+{
+font-size: 0.8em;
+color: blue;
+}
+.where
+{
+font-style: italic;
+color: #0c4160;
+}
+td
+{
+/*font-size: 0.8em;*/
+color: black;
+}
+div.liens ul
+{
+margin: 0 0 0 0;
+padding: 0;
+list-style: none;
+width: 80%;
+}
+div.liens li
+{
+display: block;
+color: black;
+}
+div.liens li a
+{
+text-decoration: none;
+padding: 4px 15px;
+text-decoration: none;
+border-radius: 4px;
+color: black;
+}
+div.liens li a:hover
+{
+font-color: #E5E4E6;
+}
+div.liens ul li
+{
+margin: 5px 0;
+padding-left: 0px;
+padding-top: 4px;
+padding-bottom: 4px;
+color: black;
+}
+
+div.liens ul li.log
+{
+border-left: 3px solid purple;
+}
+div.liens ul li.teaching
+{
+border-left: 3px solid grey;
+}
+div.liens ul li.publications
+{
+border-left: 3px solid orange;
+}
+div.liens ul li.students
+{
+border-left: 3px solid #FFFB46;
+}
